@@ -1,0 +1,441 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+.parenta {
+    background-image: url(../photos/pr1/Background.jpg);
+    background-size: cover;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+a {
+    margin-left: 110px;
+    font-size: 25px;
+    letter-spacing: 0px;
+    color: #f8eed4;
+    font-weight: 500;
+    font-family: "Open Sans";
+    text-align: right;
+}
+
+.a1 {
+    width: 115px;
+    margin-left: 20px;
+}
+
+.ch01 {
+    margin-right: 30px;
+
+}
+
+.parentb {
+    display: flex;
+    justify-content: space-between;
+    background-color: #ebbd68;
+    background-size: cover;
+    position: relative;
+    padding: 80PX;
+
+}
+.b1 {
+    width: 700px;
+    margin-top: 60px;
+    overflow: hidden;
+    position: absolute;
+    margin-left: -240px;
+}
+
+.b2 {
+    /* margin-top: 60px; */
+    font-size: 90px;
+    letter-spacing: 1px;
+    color: #fefefe;
+    font-weight: 500;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.b3{
+    font-size: 20px;
+    letter-spacing: 0px;
+    line-height: 33px;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "Open Sans";
+}
+.b4{
+    width: 30%;
+    height: 5%;
+    background-color:rgb(229, 111, 0);
+    color: #ffffff;
+    font-weight: 500;
+    font-family: "Open Sans";
+}
+.sec1{
+    position: relative;
+    background-color: #c7954f;
+    height: 100vh;
+    /* display: flex; */
+    justify-content: center;
+    /* overflow-y: hidden  ; */
+    /* padding: 200px; */
+    overflow: hidden;
+    
+}
+.s1{
+    position: absolute;
+    width: 300px;
+    left: 1100px;
+    top: 0% ;    
+    z-index: 1;
+}
+.s2{ 
+    position: absolute;
+    left: 0%;
+    bottom: -150px;
+    left: 360px;
+    width: 980px;
+    height: 600px;
+}
+.F1{
+ font-size: 200px;
+letter-spacing: 2px;
+color: #ebbd68;
+font-weight: 400;
+font-family: "Bowlby One SC";
+text-align: center;
+}
+.F2{
+font-size: 42px;
+letter-spacing: 0px;
+color: #ffffff;
+font-weight: 400;
+font-family: "Bowlby One SC";
+text-align: center;
+}
+.sec2{
+    position: relative;
+    background-color: #ebbd68;
+    height: 120vh;
+     overflow: hidden;
+}
+.s2p1{
+    position: absolute;
+    width: 776px;
+    left: -5%;
+    top: -3.5%;
+    height:850px;
+
+}
+.s2p2{
+    position: absolute;
+    left: 350px;
+    top: -31% ;
+}
+.s2f1{
+  position: absolute;
+  font-size: 50px;
+  left: 700px;
+  top: 200px;
+  color: #bd6827;
+  font-weight: 400;
+  font-family: "Arial Black";
+}
+.s2t1{
+  position: absolute;
+  left: 750px;
+  top: 390px;
+font-size: 25px;
+letter-spacing: 0px;
+line-height: 33px;
+color: #ffffff;
+font-weight: 400;
+font-family: Arial, Helvetica, sans-serif;
+}
+.s2p3{
+  position: absolute;
+  right: -1%;
+  bottom: -1%;  
+  width: 300px; 
+}
+.sec3{
+    position: relative;
+    background-color: #c7954f;
+    height: 100vh;
+    overflow: hidden;
+}
+.s3i1{
+    position: absolute;
+    width: 800px;
+    right: -4%;
+    top: -5%;
+}
+.s3f1{
+  color: #ffffff;
+   font-family: "Lilita One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 400%;
+  text-transform:uppercase;
+  margin-top: 60px ;    
+  margin-left: 60px;
+  }
+  .s3s1{
+    color: #ffffff;
+    margin-left: 59PX;
+    margin-top:4%;
+    font-family: "", sans-serif;
+    font-weight: 0px;
+    font-size: larger;
+    font-style: normal; 
+  }
+  .s3p1{
+    display: flex   ;   
+    width: 33px;
+    margin-left: 70px;
+    height: 33px;
+    border-radius: 16px;
+    background-color: #bd6827;
+    position: relative;
+  }
+  .sec3p2{
+    position: absolute;
+    width: 300px;
+    bottom: 0%;
+    left: 35%;
+  }
+  .s3p3{
+    position: absolute;
+    width: 250px;
+    bottom: 0%  ;
+    z-index: 0;
+  }
+  .sec4{
+    position: relative;
+    background-color: #ebbd68;
+    height: 100vh;
+    overflow: hidden;
+  }
+  .s4p1{
+    padding: 40px;
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+    color: #ffffff;
+    font-family: "Lilita One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-transform:uppercase;
+  }
+  .card {
+    height: 400px;
+    width: 250px;
+    background-color: #ffffff;
+    filter: drop-shadow(0px 21px 24.5px rgba(12,13,12,0.26));
+  }
+  .mcard{
+    z-index: 1;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+  }
+  .card1{
+    height: 200px;
+    width: 250px;
+  }
+  .p1{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  font-size: 16px;
+  letter-spacing: 0px;
+  font-family: "Kanit", sans-serif;
+  font-weight: 200;
+  font-style: normal;
+  color: #c7954f;
+  text-align: center;
+  }
+  .c4b1{
+    font-family: "Kanit", sans-serif;
+    margin-top: 6px;
+    margin-left: 90px;
+    background-color: #bd6827;
+    color: #ffffff;
+    padding: 1%;
+  }
+.s41i{
+ position: absolute;
+ top: -45%;
+ right: -1%;
+ width: 350px;
+ z-index: -1;
+}
+
+.s42i{
+  position: absolute;
+  bottom: -10%;
+  left: 0%;
+  width: 350px;
+  z-index: -1;
+ }
+ .sec5{
+  position: relative;
+  background-color: #bd6827;
+  height: 100vh;
+  overflow: hidden;
+  background-size: cover;
+ }
+ .patato1{
+  position: absolute;
+  width: 450px;
+  top: -5%;
+  left: -9%;
+    
+}
+ .patato2{
+  position: absolute;
+  width: 350px;
+  bottom: -9%;
+  right: -1%;  
+}
+ .sec5c1{
+  position: relative;
+  background-image: url(../photos/pr1/sec5i1.png);
+  background-size: cover;
+  display: flex;
+  top: 2%;
+  left: 280px;
+  width: 690px;
+  height: 590px;
+  z-index: 1;
+ }
+ .form1{
+  position: absolute;
+  justify-content: center;
+  left: 90px;
+  gap: 20PX;
+  top: 45px;
+  
+
+ }
+ .s5f1{
+  font-size: 58px;
+letter-spacing: 1px;
+color: #ffffff;
+font-weight: 400;
+font-family: "Bowlby One SC";
+ }
+.input1{
+  display: inline-block;
+  width: 250px;
+  height: 32px;
+}
+
+.form2{
+  position: absolute;
+  justify-content: center;
+  left: 0px;
+  gap: 5PX; 
+  top: 190px;
+  display: flex;
+ }
+
+.input2{
+  width: 250px;
+  height: 32px;
+}
+.form3{
+  position: absolute;
+  top: 245px;
+  width: 510px;
+  height: 100px;
+}
+.b2{
+  width: 100px;
+  height: 25px;
+  background-color: #ebbd68;
+  font-size: xx-small;
+  color: #ffffff;
+  margin-top: 230px;
+}
+
+.sec6{
+  position: relative;
+  justify-content: center;
+   background-image: url(../photos/pr1/sec6.png);
+   height: 120vh;  
+display: flex;
+align-items: center;
+  }
+
+.f1{
+  background-color: #ece4cd;
+border: 1.5px solid #bdb49c;
+  font-size: 20px;
+letter-spacing: 1px;
+color: #f8eed3;
+font-weight: 40;
+font-family: "Bowlby One SC";
+text-align: center;
+}
+.s6p1{
+  font-size: 21px;
+letter-spacing: 0px;
+line-height: 33px;
+color: #ffffff;
+font-weight: 400;
+font-family: "Open Sans";
+text-align: center;
+}
+.s6f1{
+  font-size: 58px;
+letter-spacing: 1px;
+color: #f8eed3;
+font-weight: 400;
+font-family: "Bowlby One SC";
+text-align: center;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  /* gap: 0; */
+}
+.mainf{
+  display: flex;
+  /* text-align: center; */
+  justify-content: space-around;
+  height: 80vh;
+  background-color: #bd6827;
+}
+.mf1{
+   display: flex;
+   gap: 40px;
+   flex-direction: column;
+   justify-content: center;
+   
+}
+h4{
+  font-size: 25px;
+letter-spacing: 0px;
+line-height: 29px;
+color: #ebbd68;
+font-weight: 700;
+font-family: "Open Sans";
+}
+.fp1{
+  font-size: 15px;
+letter-spacing: 0px;
+line-height: 29px;
+color: white;
+font-weight: 500;
+}
+.logof{
+  display: flex;
+  justify-content: space-around;
+
+}
+.mf2{
+  background-color: transparent;
+  border: solid 1px white;
+}

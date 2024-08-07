@@ -1,0 +1,24 @@
+.box{
+    width: 110px;
+    height: 110px;
+    float: left;
+    background-color: #B58863;
+    text-align: center;
+    border: solid 1px;
+    font-size:75px;
+
+    
+}
+.boxblack{
+    background-color:#F0D9B5;
+    height: 110px;
+    width: 110px;
+    text-align: center;
+    float: left;
+    border: solid 1px;
+    font-size:75px;
+    
+}
+.box12{
+   width: 900px;
+}
