@@ -1,0 +1,41 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+ nav {
+    display: flex;
+    justify-content: space-around;
+    padding: 30px;
+    height: 30px;
+    background-color: black;
+ } 
+
+ a {
+    color: white;
+    text-decoration: none ;
+    font-size: 25px;
+ } 
+
+ .hide {
+    display: none;
+    text-decoration: none;
+    
+ } 
+ .hide a{
+    font-size: medium;
+ }
+
+ .show:hover .hide {
+    margin-top: 40PX;
+    position: absolute;
+     display: flex;
+     gap: 20px;
+     padding: 15PX;
+     right: 125PX;
+     justify-content: center;
+     align-items: center;
+     width: 90px;
+     flex-direction: column;
+     background-color: rgb(116, 111, 177);
+     color: rgb(255, 0, 0);
+ } 
