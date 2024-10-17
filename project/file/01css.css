@@ -1,0 +1,440 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: rgb(56, 55, 55);
+}
+
+.container {
+
+    margin: 0 auto;
+    height: 100PX;
+    width: 88%;
+
+
+}
+
+nav {
+    padding-top: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.container {
+    margin: 0 auto;
+    width: 88%;
+
+}
+
+.section1 {
+    background-image: url(../img/slider1.jpg);
+    height: 90vh;
+    position: relative;
+    padding-top: 200px;
+    z-index: -1;
+    background-repeat: no-repeat;
+}
+
+.bacimg {
+    width: 1500px;
+
+
+}
+
+.slider1-img {
+    position: absolute;
+}
+
+
+
+.slider1 {
+    position: relative;
+
+}
+
+.section1-content {
+    line-height: 100px;
+
+}
+
+.section1-content h3 {
+    font-size: 40px;
+    color: white;
+    margin-left: 150px;
+    text-transform: uppercase;
+    font-family: "Cinzel", serif;
+    font-optical-sizing: 10;
+    font-weight: 300;
+    letter-spacing: 13px;
+    font-style: normal;
+}
+
+
+.section1-content h2 {
+    font-size: 300px;
+    color: white;
+    font-family: Poppins, sans-serif;
+    font-size: 242px;
+    font-weight: 750;
+    letter-spacing: 40px;
+    margin-top: 50px;
+    text-transform: uppercase;
+    margin-left: 140px;
+
+}
+
+.khaman {
+    position: absolute;
+    right: 0px;
+    bottom: 10px;
+}
+
+.chilly {
+    position: absolute;
+    right: 0px;
+    top: 160px;
+}
+
+.dal {
+    position: absolute;
+    right: 350px;
+    top: 40px;
+}
+
+.chatni {
+    position: absolute;
+    right: 550px;
+    top: 180px;
+}
+
+.dada {
+    position: absolute;
+    z-index: 1;
+    right: 0px;
+}
+
+.section2 {
+    position: relative;
+    /* height: 120vh; */
+    background-position: top right;
+    padding-top: 100px;
+
+}
+
+.content1 {
+    margin-top: 90px;
+    width: 85%;
+    margin: 0 auto;
+    text-align: center;
+    justify-content: center;
+}
+
+.content1 h1 {
+    color: red;
+    font-size: 55px;
+    line-height: 1.2;
+    margin-bottom: 0.7em;
+    font-weight: 200;
+    letter-spacing: 0.33em;
+    text-transform: uppercase;
+    font-family: "Quicksand", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 1px;
+    font-style: normal;
+}
+
+.content1 p {
+    margin: 60px;
+    font-size: 30px;
+    color: black;
+    font-family: "Quicksand", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 110px;
+    font-style: normal;
+
+}
+
+.khamanlogos2 {
+    width: 250px;
+}
+
+.content1 h2 {
+    color: black;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+.content1 h3 {
+    color: red;
+    font-size: 30px;
+    text-transform: uppercase;
+    font-family: "Quicksand", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 1px;
+    font-style: normal;
+    line-height: 1.2;
+    margin-bottom: 0.7em;
+    font-weight: 200;
+    letter-spacing: 10px;
+}
+
+.content2 {
+    z-index: 1;
+    gap: 50px;
+    padding: 80px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    position: relative;
+}
+
+.khamans2 {
+
+    position: absolute;
+    top: 0px;
+    right: 0;
+    width: 300px;
+}
+
+.slick-next {
+    position: absolute;
+    background-color: black;
+}
+
+.content2 img {
+    z-index: 1;
+}
+
+.paper {
+    position: absolute;
+    top: -150PX;
+    left: 0;
+    z-index: 1;
+
+}
+
+.section3 {
+    position: relative;
+    padding: 150px;
+    background-image: url(../img/section3bg.png);
+    background-size: cover;
+    width: 100%;
+}
+
+.kothmir2 {
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.slide1 h1 {
+    position: absolute;
+    top: 10px;
+    left: 710px;
+    color: white;
+
+    font-size: 55px;
+    line-height: 1.2;
+    font-weight: 200;
+    letter-spacing: 0.33em;
+    text-transform: uppercase;
+
+}
+
+.slid1 img {
+    width: 100px;
+}
+
+.slid1 {
+    position: absolute;
+    margin: 0 auto;
+}
+
+.section4 {
+    padding: 50px;
+   position: relative;
+}
+
+.s4 {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.section4 h1 {
+    font-size: 60px;
+    font-family: "Rajdhani", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: red;
+    text-align: center;
+
+
+
+}
+
+.section4 p {
+
+    margin: 60px;
+    font-size: 20px;
+    color: black;
+    font-family: "Quicksand", sans-serif;
+    font-weight: 110px;
+    font-style: normal;
+    text-align: center;
+
+}
+
+
+.sec4dhokla{
+    position: absolute;
+    top:-180PX;
+    right: 0;
+    width: 18%;
+}
+
+.sec4kothmir{
+    position: absolute;
+    top:7px;
+    left: 100px;
+}
+
+
+.section4 button {
+    background-color: red;
+    padding: 10px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: white;
+    text-align: center;
+    font-size: 15px;
+    font-variant: uppercase;
+    width: 300px;
+}
+
+.btn-1 {
+    margin:
+        0px auto;
+    width: 10%;
+    margin-top: 50px;
+    margin-left: 750px;
+}
+
+.btn-1:hover{
+    background-color: white;
+    color: black;
+    letter-spacing: 2px;
+    transition: 500ms;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    
+}
+
+
+.section5 {
+    position: relative;
+    width: 100%;
+    padding: 80px;
+    background-image: url(../img/section5.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-size: cover;
+
+}
+
+
+
+.grid-box {
+    padding-top: 30px;
+    display: grid;
+    margin: 0 auto;
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-gap: 0px;
+    width: 1600px;
+
+
+}
+
+.grid-item {
+    background-color: white;
+
+}
+
+.grid-item:hover {
+    overflow: scroll;
+}
+
+.para {
+    color: rgb(5, 0, 0);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: none;
+}
+
+.grid-item:hover .para {
+    display: block;
+
+}
+
+.grid-item {
+    background-color: white;
+    height: 200px;
+    width: 200px;
+    text-align: center;
+    border: solid 1px;
+    position: relative;
+}
+
+.fa-facebook-f {
+
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+
+}
+
+.section5 h1 {
+    text-align: center;
+    color: white;
+    font-size: 55px;
+    line-height: 1.2;
+    margin-bottom: 0.7em;
+    font-weight: 200;
+    letter-spacing: 0.33em;
+    text-transform: uppercase;
+    font-family: "Quicksand", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 1px;
+    font-style: normal;
+
+}
+
+.side-chatni{
+    position: absolute;
+    top: -90px;
+    left: 0;
+    width: 19%;
+
+}
+
+.side-kothmir {
+    position: absolute;
+    top: -50px;
+    right: 70px;
+
+}
+
+.section6{
+    width: 100%;
+    display: inline-block;
+    text-align: center;
+    background-size: cover;
+    padding: 80px;
+    gap: 120px;
+    
+
+}
