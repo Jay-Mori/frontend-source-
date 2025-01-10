@@ -1,0 +1,1594 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Pronia Plant</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+    <link rel="stylesheet" href=" https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css "
+        integrity="sha512-yHknP1/AwR+yx26cB1y0cjvQUMvEa2PFzt1c9LlS4pRQ5NOTZFWbhBig+X9G9eYW/8m0/4OXNx8pxJ6z57x0dw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href=" https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.min.css "
+        integrity="sha512-17EgCFERpgZKcm0j0fEq1YCJuyAWdz9KUtv1EjVuaOz8pDnh/0nZxmU6BBXwaaxqoi9PQXnRWqlcDB027hgv9A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        .nav01 {
+            background-color: rgba(171, 211, 115, 255);
+        }
+
+        .logo1 {
+            width: 29px;
+        }
+
+        .logo2 {
+            width: 33px;
+        }
+
+        .logo3 {
+            width: 23px;
+        }
+
+        .logo4 {
+            width: 23px;
+        }
+
+        .caller {
+
+            border-radius: 25%;
+            width: 40px;
+
+        }
+
+        .dropdown-menu {
+            width: 600px;
+            /* Adjust width as needed */
+        }
+
+        .section-1 {
+            background-image: url(../imge/background\ img\ 1.jpg);
+        }
+
+        hr {
+            margin: 0rem 0;
+        }
+
+        .card-01 {
+            -webkit-box-shadow: 0 5px 10px rgba(0, 0, 0, 0.15);
+            box-shadow: 0 5px 10px rgba(0, 0, 0, 0.15);
+            background-color: #ffffff;
+            font-size: 20px;
+            width: 40px;
+            height: 40px;
+            line-height: 40px;
+            text-align: center;
+            display: block;
+        }
+
+   
+        .cardsection {
+            position: relative;
+        }
+
+        .cart-image {
+            position: absolute;
+            top: 245px;
+            left: 18px;
+        }
+
+        .card-01:hover{
+            width: 50px;
+            height: 50px;
+            
+        }
+
+        .card-border {
+            border: none;
+        }
+
+        .content span {
+            font-size: x-large;
+            font-family: serif;
+            padding: 5px;
+            color: rgba(171, 211, 115, 255);
+        }
+
+        .content a {
+            font-size: large;
+            font-family: sans-serif;
+            color: rgba(29, 29, 29, 0.904);
+            padding: 5px;
+            text-decoration: none;
+        }
+
+        .gallery-img1 {
+            background-image: url(../imge/galleryimg1.webp);
+            height: 300px;
+
+            width: 100%;
+            background-repeat: no-repeat;
+        }
+
+        .gallery-img2 {
+            background-image: url(../imge/galleryimg2.webp);
+            height: 300px;
+            width: 100%;
+            background-repeat: no-repeat;
+        }
+
+        .col {
+            position: relative;
+        }
+
+        .content-1 {
+            position: absolute;
+            top: 50px;
+            left: 80px;
+        }
+
+        .content-2 {
+            position: absolute;
+            top: 50px;
+            left: 105px;
+
+        }
+
+        .section-bg-img {
+
+            background-image: url(../imge/bg3.jpg);
+            height: 600px;
+            width: 100%;
+            background-repeat: no-repeat;
+        }
+
+        .qoution-img {
+            position: absolute;
+            border-bottom-left-radius: 100%;
+            background-color: #abd373;
+            position: absolute;
+            top: 0;
+            right: 0;
+            width: 125px;
+            height: 110px;
+            line-height: 85px;
+            text-align: center;
+            padding-left: 15px;
+
+        }
+
+        .q-image {
+            position: absolute;
+            right: 35px !important;
+            top: 30px;
+        }
+
+        .client-crad {
+            position: relative;
+            width: 360px !important;
+            box-shadow: 0 5px 10px rgba(0, 0, 0, 0.15);
+            border-radius: 20px;
+            overflow: hidden !important;
+            margin-left: 30px;
+        }
+
+
+        .slick-arrow {
+            background-color: #abd373;
+            width: 31px;
+            height: 40px;
+        }
+
+
+        .footer-img {
+            background-image: url(../imge/footer\ img.jpg);
+            background-size: cover;
+
+
+        }
+
+        .background-slider-img {
+
+            background-image: url(../imge/bg-for-icon.webp);
+            background-repeat: no-repeat;
+            background-size: cover;
+            height: 280px;
+            width: 95%;
+            justify-content: center;
+            overflow: hidden !important;
+
+
+        }
+
+        .slider-icon {
+            padding-top: 90px;
+
+
+        }
+
+        .i-slide {
+            margin-left: -42px;
+        }
+
+        .last-card {
+            width: 87% !important;
+            padding: 35px !important;
+            height: 450px;
+            background-color: #f6f7fb;
+            border-radius: 10px;
+
+        }
+
+        .footer-content {
+            /* padding: 20PX; */
+            padding-top: 150px !important;
+        }
+
+        .ft-logo {
+            margin-top: -50px;
+        }
+    </style>
+
+
+</head>
+
+
+
+<body>
+
+    <nav class="navbar navbar-expand-sm nav01 p-1">
+        <div class="container">
+            <div>
+                <span class="pronia-offer text-white fw-normal">HELLO EVERYONE! 25% Off All Products</span>
+            </div>
+            <div>
+                <ul class="navbar-nav">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle  text-white" href="#" role="button"
+                            data-bs-toggle="dropdown">USD</a>
+                        <ul class="dropdown-menu" style="width: 150px !important;">
+                            <li><a class="dropdown-item" href="#">GBP</a></li>
+                            <li><a class="dropdown-item" href="#">IOS</a></li>
+                        </ul>
+                    </li>
+
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle  text-white" href="#" role="button"
+                            data-bs-toggle="dropdown">ENGLISH</a>
+                        <ul class="dropdown-menu" style="width: 150px !important;">
+                            <li><a class="dropdown-item" href="#">Freanch</a></li>
+                            <li><a class="dropdown-item" href="#">Spanish</a></li>
+                            <li><a class="dropdown-item" href="#">Italian</a></li>
+                        </ul>
+                    </li>
+
+                </ul>
+            </div>
+        </div>
+        </div>
+    </nav>
+
+
+    <div class="container">
+        <div class="row text-center justify-content-between ">
+            <div class="col">
+
+                <div class="row">
+                    <div class="col mt-4 p-4">
+                        <a href=""><img class="caller" src="../imge/Screenshot 2024-11-21 113827.png" alt=""></a> <span
+                            class=" text-dark fw-bold">+00 123 456 789</span>
+                    </div>
+
+                </div>
+
+            </div>
+            <div class="col mt-4">
+                <img src="../imge/logo pronia.png" alt="" height="50px">
+            </div>
+            <div class="col mt-4 p-4">
+                <a href=""><img class="logo1" src="../imge/icons8-search-64.png" alt=""></a>
+                <a href=""><img class="logo2" src="../imge/icons8-verified-account-64.png" alt=""></a>
+                <a href=""><img class="logo3" src="../imge/icons8-heart-32.png" alt=""></a>
+                <a href=""><img class="logo4" src="../imge/icons8-shopping-bag-50.png" alt=""></a>
+            </div>
+        </div>
+    </div>
+
+    <hr>
+
+    <nav class="navbar container navbar-expand-sm p-1  justify-content-center">
+        <div class="">
+            <ul class="navbar-nav gap-3">
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle  text-dark" href="#" role="button"
+                        data-bs-toggle="dropdown">HOME</a>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#">HOME 1</a></li>
+                        <li><a class="dropdown-item" href="#">HOME 2</a></li>
+                    </ul>
+                </li>
+
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="shopDropdown" role="button"
+                        data-bs-toggle="dropdown" aria-expanded="false">
+                        Shop
+                    </a>
+                    <div class="dropdown-menu p-4" aria-labelledby="shopDropdown">
+                        <div class="row">
+                            <!-- Column 1 -->
+                            <div class="col-md-4">
+                                <h6 class="dropdown-header">Shop Layout</h6>
+                                <a class="dropdown-item" href="#">Shop Default</a>
+                                <a class="dropdown-item" href="#">Shop Grid Fullwidth</a>
+                                <a class="dropdown-item" href="#">Shop Right Sidebar</a>
+                                <a class="dropdown-item" href="#">Shop List Fullwidth</a>
+                                <a class="dropdown-item" href="#">Shop List Left Sidebar</a>
+                                <a class="dropdown-item" href="#">Shop List Right Sidebar</a>
+                            </div>
+                            <!-- Column 2 -->
+                            <div class="col-md-4">
+                                <h6 class="dropdown-header">Product Style</h6>
+                                <a class="dropdown-item" href="#">Single Product Variable</a>
+                                <a class="dropdown-item" href="#">Single Product Group</a>
+                                <a class="dropdown-item" href="#">Single Product Default</a>
+                                <a class="dropdown-item" href="#">Single Product Affiliate</a>
+                                <a class="dropdown-item" href="#">Single Product Sale</a>
+                                <a class="dropdown-item" href="#">Single Product Sticky</a>
+                            </div>
+                            <!-- Column 3 -->
+                            <div class="col-md-4">
+                                <h6 class="dropdown-header">Product Related</h6>
+                                <a class="dropdown-item" href="#">My Account</a>
+                                <a class="dropdown-item" href="#">Login | Register</a>
+                                <a class="dropdown-item" href="#">Shopping Cart</a>
+                                <a class="dropdown-item" href="#">Wishlist</a>
+                                <a class="dropdown-item" href="#">Compare</a>
+                                <a class="dropdown-item" href="#">Checkout</a>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle  text-dark" href="#" role="button"
+                        data-bs-toggle="dropdown">BLOG</a>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#">Blog List View</a></li>
+                        <li><a class="dropdown-item" href="#">Blog Details</a></li>
+                        <li><a class="dropdown-item" href="#">Multi Lavel Dropdown</a></li>
+                    </ul>
+                </li>
+
+                <li class="">
+                    <a class="nav-link" href="">CONTACT US</a>
+                </li>
+
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle  text-dark" href="#" role="button"
+                        data-bs-toggle="dropdown">PAGES</a>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#">FAQ</a></li>
+                        <li><a class="dropdown-item" href="#">Error 404</a></li>
+                    </ul>
+                </li>
+
+                <li>
+                    <a href="" class="nav-link">CONTACT US</a>
+                </li>
+
+            </ul>
+
+        </div>
+    </nav>
+
+
+    <!-- Carousel -->
+    <div id="demo" class="carousel slide" data-bs-ride="carousel">
+
+        <!-- Indicators/dots -->
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+            <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+
+        </div>
+
+        <!-- The slideshow/carousel -->
+        <div class="carousel-inner p-5" style="background-color: rgba(248,238,230,255)">
+            <div class="carousel-item  active">
+                <div class="d-flex  justify-content-around container">
+                    <div class=" align-content-center text-st ">
+                        <span class="" style="font-size: 50px;">65% Off</span>
+                        <h2 class="" style="font-size: 100px;">NEW PLANT</h2>
+                        <h5>
+                            <p class="">Pronia, With 100% Natural, Organic & Plant Shop.</p>
+                        </h5>
+                        <br>
+                        <div class="btn-wrap">
+                            <a class="btn btn-xl-size "
+                                style="color: white; background-color: rgba(171, 211, 115, 255);" href="#">Discover
+                                Now</a>
+                        </div>
+                    </div>
+                    <div>
+                        <img src="../imge/slider plant.webp" alt="Los Angeles" class="d-block ">
+                    </div>
+                </div>
+
+
+            </div>
+            <div class="carousel-item">
+                <div class="d-flex  justify-content-around container">
+                    <div class=" align-content-center text-st ">
+                        <span class="" style="font-size: 50px;">65% Off</span>
+                        <h2 class="" style="font-size: 100px;">NEW PLANT</h2>
+                        <h5>
+                            <p class="">Pronia, With 100% Natural, Organic & Plant Shop.</p>
+                        </h5>
+                        <br>
+                        <div class="btn-wrap">
+                            <a class="btn btn-custom-size xl-size"
+                                style=" color: white; background-color: rgba(171, 211, 115, 255);" href="#">Discover
+                                Now</a>
+                        </div>
+                    </div>
+                    <div>
+                        <img src="../imge/slider plant 2.webp" alt="Los Angeles" class="d-block ">
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+        <!-- Left and right controls/icons -->
+        <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+            <span class="carousel-control-next-icon"></span>
+        </button>
+    </div>
+
+
+    <div class="container d-flex justify-content-around mt-5  p-5 ">
+        <div class="card p-3" style="border: dotted 2px rgba(171, 211, 115, 255); height: 110px; width: 350px; ;">
+            <div class="d-flex gap-3">
+                <div>
+                    <img src="../imge/car.png" alt="" class="mt-3 ">
+                </div>
+                <div>
+                    <h2>
+                        Free Shipping
+                    </h2>
+                    <p>
+                        Capped at $319 per order
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="card p-3" style="border: dotted 2px rgba(171, 211, 115, 255);  height: 110px; width: 350px;">
+            <div class="d-flex gap-3">
+                <div>
+                    <img src="../imge/car.png" alt="" class="mt-3">
+                </div>
+                <div>
+                    <h2>
+                        Safe Payment
+                    </h2>
+                    <p>
+                        With our payment gateway
+                    </p>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="card p-3" style="border: dotted 2px rgba(171, 211, 115, 255) ; height: 110px; width: 350px;">
+            <div class="d-flex gap-3">
+                <div>
+                    <img src="../imge/car.png" alt="" class="mt-3">
+                </div>
+                <div>
+                    <h2>
+                        Best Service
+                    </h2>
+                    <p>
+                        Friendly & supper Service
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="section-2 m-5 ">
+        <div class="container">
+            <div class="text-center">
+                <h1>
+                    OUR PRODUCTS
+                </h1>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="container d-flex justify-content-center gap-3 ">
+        <div class="card" style="border: dotted 2px rgba(171, 211, 115, 255); height: 50px; width: 150px; ;">
+            <div class="gap-3">
+                <div>
+                    <p class="text-center mt-2 p-1 ">
+                        Fetured
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="card" style="border: dotted 2px rgba(171, 211, 115, 255); height: 50px; width: 150px; ;">
+            <div class="gap-3">
+                <div>
+                    <p class="text-center mt-2 p-1 ">
+                        Bestseller
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="card" style="border: dotted 2px rgba(171, 211, 115, 255); height: 50px; width: 150px; ;">
+            <div class="gap-3">
+                <div>
+                    <p class="text-center mt-2 p-1 ">
+                        Latest
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <br><br>
+    <div class="cardsection">
+        <div class="container d-flex justify-content-around">
+            <div class="card card-border">
+                <img src="../imge/cart1.webp" alt="">
+                <div class="cart-image  d-flex gap-1">
+                    <div class="card-01"><a href=""><img style="width: 30px;" src="../imge/icons8-heart-32.png"
+                                alt=""></a></div>
+                    <div class="card-01"><a href=""><img style="width: 30px;" src="../imge/overvieicon.png" alt=""></a>
+                    </div>
+                    <div class="card-01"><a href=""><img style="width: 25px;" src="../imge/icons8-shopping-bag-50.png"
+                                alt=""></a></div>
+                </div>
+                <div class="content ms-3">
+                    <div><a class="product-name" href="">American Marigold</a></div>
+                    <div><span class="new-price">$23.45</span></div>
+                    <div class="d-flex">
+                        <img style="width: 25px;" src="../imge/icons8-star-filled-48.png" alt="">
+                        <img style="width: 25px;" src="../imge/icons8-star-filled-48.png" alt="">
+                        <img style="width: 25px;" src="../imge/icons8-star-filled-48.png" alt="">
+                        <img style="width: 25px;" src="../imge/icons8-star-filled-48.png" alt="">
+                        <img style="width: 25px;" src="../imge/icons8-star-filled-48.png" alt="">
+                    </div>
+                </div>
+            </div>
+
+            <div class="card card-border">
+                <img src="../imge/cart2.webp" alt="">
+                <div class="cart-image  d-flex gap-1">
+                    <div class="card-01"><a href=""><img style="width: 30px;" src="../imge/icons8-heart-32.png"
+                                alt=""></a></div>
+                    <div class="card-01"><a href=""><img style="width: 30px;" src="../imge/overvieicon.png" alt=""></a>
+                    </div>
+                    <div class="card-01"><a href=""><img style="width: 25px;" src="../imge/icons8-shopping-bag-50.png"
+                                alt=""></a></div>
+                </div>
+                <div class="content ms-3">
+                    <div><a class="product-name" href="">Black Eyed Susan</a></div>
+                    <div><span class="new-price">$35.45</span></div>
+                    <div class="d-flex">
+                        <img style="width: 25px;" src="../imge/icons8-star-filled-48.png" alt="">
+                        <img style="width: 25px;" src="../imge/icons8-star-filled-48.png" alt="">
+                        <img style="width: 25px;" src="../imge/icons8-star-filled-48.png" alt="">
+                        <img style="width: 25px;" src="../imge/icons8-star-filled-48.png" alt="">
+                        <img style="width: 25px;" src="../imge/icons8-star-filled-48.png" alt="">
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="card card-border">
+                <img src="../imge/cart3.webp" alt="">
+                <div class="cart-image  d-flex gap-1">
+                    <div class="card-01"><a href=""><img style="width: 30px;" src="../imge/icons8-heart-32.png"
+                                alt=""></a></div>
+                    <div class="card-01"><a href=""><img style="width: 30px;" src="../imge/overvieicon.png" alt=""></a>
+                    </div>
+                    <div class="card-01"><a href=""><img style="width: 25px;" src="../imge/icons8-shopping-bag-50.png"
+                                alt=""></a></div>
+                </div>
+                <div class="content ms-3">
+                    <div><a class="product-name" href="">Bleedin Heart</a></div>
+                    <div><span class="new-price">$45.45</span></div>
+                    <div class="d-flex">
+                        <img style="width: 25px;" src="../imge/icons8-star-filled-48.png" alt="">
+                        <img style="width: 25px;" src="../imge/icons8-star-filled-48.png" alt="">
+                        <img style="width: 25px;" src="../imge/icons8-star-filled-48.png" alt="">
+                        <img style="width: 25px;" src="../imge/icons8-star-filled-48.png" alt="">
+                        <img style="width: 25px;" src="../imge/icons8-star-filled-48.png" alt="">
+                    </div>
+                </div>
+            </div>
+
+
+
+            <div class="card card-border ">
+                <img src="../imge/cart4.webp" alt="">
+                <div class="cart-image  d-flex gap-1">
+                    <div class="card-01"><a href=""><img style="width: 30px;" src="../imge/icons8-heart-32.png"
+                                alt=""></a></div>
+                    <div class="card-01"><a href=""><img style="width: 30px;" src="../imge/overvieicon.png" alt=""></a>
+                    </div>
+                    <div class="card-01"><a href=""><img style="width: 25px;" src="../imge/icons8-shopping-bag-50.png"
+                                alt=""></a></div>
+                </div>
+                <div class="content ms-3">
+                    <div><a class="product-name" href="">Bloody Cranesbill</a></div>
+                    <div><span class="new-price">$48.45</span></div>
+                    <div class="d-flex">
+                        <img style="width: 25px;" src="../imge/icons8-star-filled-48.png" alt="">
+                        <img style="width: 25px;" src="../imge/icons8-star-filled-48.png" alt="">
+                        <img style="width: 25px;" src="../imge/icons8-star-filled-48.png" alt="">
+                        <img style="width: 25px;" src="../imge/icons8-star-filled-48.png" alt="">
+                        <img style="width: 25px;" src="../imge/icons8-star-filled-48.png" alt="">
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+
+    <br>
+
+
+    <div class="cardsection">
+        <div class="container d-flex justify-content-around">
+            <div class="card card-border">
+                <img src="../imge/cart5.webp" alt="">
+                <div class="cart-image  d-flex gap-1">
+                    <div class="card-01"><a href=""><img style="width: 30px;" src="../imge/icons8-heart-32.png"
+                                alt=""></a></div>
+                    <div class="card-01"><a href=""><img style="width: 30px;" src="../imge/overvieicon.png" alt=""></a>
+                    </div>
+                    <div class="card-01"><a href=""><img style="width: 25px;" src="../imge/icons8-shopping-bag-50.png"
+                                alt=""></a></div>
+                </div>
+                <div class="content ms-3">
+                    <div><a class="product-name" href="">Butterfly Weed</a></div>
+                    <div><span class="new-price">$63.45</span></div>
+                    <div class="d-flex">
+                        <img style="width: 25px;" src="../imge/icons8-star-filled-48.png" alt="">
+                        <img style="width: 25px;" src="../imge/icons8-star-filled-48.png" alt="">
+                        <img style="width: 25px;" src="../imge/icons8-star-filled-48.png" alt="">
+                        <img style="width: 25px;" src="../imge/icons8-star-filled-48.png" alt="">
+                        <img style="width: 25px;" src="../imge/icons8-star-filled-48.png" alt="">
+                    </div>
+                </div>
+            </div>
+
+            <div class="card card-border">
+                <img src="../imge/cart6.webp" alt="">
+                <div class="cart-image  d-flex gap-1">
+                    <div class="card-01"><a href=""><img style="width: 30px;" src="../imge/icons8-heart-32.png"
+                                alt=""></a></div>
+                    <div class="card-01"><a href=""><img style="width: 30px;" src="../imge/overvieicon.png" alt=""></a>
+                    </div>
+                    <div class="card-01"><a href=""><img style="width: 25px;" src="../imge/icons8-shopping-bag-50.png"
+                                alt=""></a></div>
+                </div>
+                <div class="content ms-3">
+                    <div><a class="product-name" href="">Common Yarrow</a></div>
+                    <div><span class="new-price">$20.45</span></div>
+                    <div class="d-flex">
+                        <img style="width: 25px;" src="../imge/icons8-star-filled-48.png" alt="">
+                        <img style="width: 25px;" src="../imge/icons8-star-filled-48.png" alt="">
+                        <img style="width: 25px;" src="../imge/icons8-star-filled-48.png" alt="">
+                        <img style="width: 25px;" src="../imge/icons8-star-filled-48.png" alt="">
+                        <img style="width: 25px;" src="../imge/icons8-star-filled-48.png" alt="">
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="card card-border">
+                <img src="../imge//cart7.webp" alt="">
+                <div class="cart-image  d-flex gap-1">
+                    <div class="card-01"><a href=""><img style="width: 30px;" src="../imge/icons8-heart-32.png"
+                                alt=""></a></div>
+                    <div class="card-01"><a href=""><img style="width: 30px;" src="../imge/overvieicon.png" alt=""></a>
+                    </div>
+                    <div class="card-01"><a href=""><img style="width: 25px;" src="../imge/icons8-shopping-bag-50.png"
+                                alt=""></a></div>
+                </div>
+                <div class="content ms-3">
+                    <div><a class="product-name" href="">Doublefile Viburnum</a></div>
+                    <div><span class="new-price">$33.45</span></div>
+                    <div class="d-flex">
+                        <img style="width: 25px;" src="../imge/icons8-star-filled-48.png" alt="">
+                        <img style="width: 25px;" src="../imge/icons8-star-filled-48.png" alt="">
+                        <img style="width: 25px;" src="../imge/icons8-star-filled-48.png" alt="">
+                        <img style="width: 25px;" src="../imge/icons8-star-filled-48.png" alt="">
+                        <img style="width: 25px;" src="../imge/icons8-star-filled-48.png" alt="">
+                    </div>
+                </div>
+            </div>
+
+
+
+            <div class="card card-border ">
+                <img src="../imge/cart8.webp" alt="">
+                <div class="cart-image  d-flex gap-1">
+                    <div class="card-01"><a href=""><img style="width: 30px;" src="../imge/icons8-heart-32.png"
+                                alt=""></a></div>
+                    <div class="card-01"><a href=""><img style="width: 30px;" src="../imge/overvieicon.png" alt=""></a>
+                    </div>
+                    <div class="card-01"><a href=""><img style="width: 25px;" src="../imge/icons8-shopping-bag-50.png"
+                                alt=""></a></div>
+                </div>
+                <div class="content ms-3">
+                    <div><a class="product-name" href="">Feather Reed Grass</a></div>
+                    <div><span class="new-price">$55.45</span></div>
+                    <div class="d-flex">
+                        <img style="width: 25px;" src="../imge/icons8-star-filled-48.png" alt="">
+                        <img style="width: 25px;" src="../imge/icons8-star-filled-48.png" alt="">
+                        <img style="width: 25px;" src="../imge/icons8-star-filled-48.png" alt="">
+                        <img style="width: 25px;" src="../imge/icons8-star-filled-48.png" alt="">
+                        <img style="width: 25px;" src="../imge/icons8-star-filled-48.png" alt="">
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- ------------photos section -------------- -->
+
+    <div class="section-space-top-90 m-5 ">
+
+        <div class="container">
+
+            <div class="row g-4 ">
+                <div class="col col-md-8">
+                    <img src="../imge/galleryimg1.webp" alt="" width="100%" height="300px">
+                    <div class="content-1 text-position-left">
+                        <p class=""
+                            style="font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;">
+                            Collection Of Cactus</p>
+                        <h1 class="title">Pottery Pots &amp; <br> Plant</h1>
+                        <div class="button-wrap mt-3">
+                            <a class="btn btn-xl-size "
+                                style=" width: 150px; color: white; background-color: rgba(171, 211, 115, 255);"
+                                href="#">Shop Now</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col col-md-4">
+                    <img src="../imge/galleryimg2.webp" alt="">
+                    <div class="content-2 text-position-center text-center p-1">
+                        <p class=""
+                            style="font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;">
+                            New Collection</p>
+                        <h1 class="title mt-4">Plant Port</h1>
+                        <div class="button-wrap mt-4">
+                            <a class="btn btn-xl-size "
+                                style="color: white; background-color: rgba(171, 211, 115, 255);" href="#">Shop Now</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col col-md-4">
+                    <img src="../imge/galleryimg3.webp" alt="" width="100%" height="320px">
+                    <div class="content-2 text-position-center text-center p-1">
+                        <p class=""
+                            style="font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;">
+                            New Collection</p>
+                        <h1 class="title mt-4">Plant Port</h1>
+                        <div class="button-wrap mt-4">
+                            <a class="btn btn-xl-size "
+                                style="color: white; background-color: rgba(171, 211, 115, 255);" href="#">Shop Now</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col col-md-8">
+                    <img src="../imge/galleryimg4.webp" alt="" style="height: 320px; width: 95%;">
+                    <div class="content-1 text-position-left">
+                        <p class=""
+                            style="font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;">
+                            Collection Of Cactus</p>
+                        <h1 class="title">Hanging Pots &amp; <br> Plant</h1>
+                        <div class="button-wrap mt-3" data-bs-toggle="tooltip" title="Hooray!">Hover over me!>
+                            <a class="btn btn-xl-size "
+                                style=" width: 150px; color: white; background-color: rgba(171, 211, 115, 255);"
+                                href="#">Shop Now</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- ----------------------NEW PRODUCT SECTION----------------------- -->
+
+    <br>
+    <div class="section-2 m-4 ">
+        <div class="container">
+            <div class="text-center">
+                <h1 class="fw-bold">
+                    NEW PRODUCTS
+                </h1>
+                <br>
+                <p class="">
+                    Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots <br>
+                    in a piece of classical Latin literature
+                </p>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- --------------------------------------slider-----------------------------------------  -->
+
+    <div class="cardsection">
+        <div class="container d-flex justify-content-around slider2">
+            <div class="card card-border">
+                <img src="../imge/newitem3.webp" alt="">
+                <div class="cart-image  d-flex gap-1">
+                    <div class="card-01"><a href=""><img style="width: 30px;" src="../imge/icons8-heart-32.png"
+                                alt=""></a></div>
+                    <div class="card-01"><a href=""><img style="width: 30px;" src="../imge/overvieicon.png" alt=""></a>
+                    </div>
+                    <div class="card-01"><a href=""><img style="width: 25px;" src="../imge/icons8-shopping-bag-50.png"
+                                alt=""></a></div>
+                </div>
+                <div class="content ms-3">
+                    <div><a class="product-name" href="">American Marigold</a></div>
+                    <div><span class="new-price">$23.45</span></div>
+                    <div class="d-flex">
+                        <img style="width: 25px;" src="../imge/icons8-star-filled-48.png" alt="">
+                        <img style="width: 25px;" src="../imge/icons8-star-filled-48.png" alt="">
+                        <img style="width: 25px;" src="../imge/icons8-star-filled-48.png" alt="">
+                        <img style="width: 25px;" src="../imge/icons8-star-filled-48.png" alt="">
+                        <img style="width: 25px;" src="../imge/icons8-star-filled-48.png" alt="">
+                    </div>
+                </div>
+            </div>
+
+            <div class="card card-border">
+                <img src="../imge/newitem1.webp" alt="">
+                <div class="cart-image  d-flex gap-1">
+                    <div class="card-01"><a href=""><img style="width: 30px;" src="../imge/icons8-heart-32.png"
+                                alt=""></a></div>
+                    <div class="card-01"><a href=""><img style="width: 30px;" src="../imge/overvieicon.png" alt=""></a>
+                    </div>
+                    <div class="card-01"><a href=""><img style="width: 25px;" src="../imge/icons8-shopping-bag-50.png"
+                                alt=""></a></div>
+                </div>
+                <div class="content ms-3">
+                    <div><a class="product-name" href="">Black Eyed Susan</a></div>
+                    <div><span class="new-price">$35.45</span></div>
+                    <div class="d-flex">
+                        <img style="width: 25px;" src="../imge/icons8-star-filled-48.png" alt="">
+                        <img style="width: 25px;" src="../imge/icons8-star-filled-48.png" alt="">
+                        <img style="width: 25px;" src="../imge/icons8-star-filled-48.png" alt="">
+                        <img style="width: 25px;" src="../imge/icons8-star-filled-48.png" alt="">
+                        <img style="width: 25px;" src="../imge/icons8-star-filled-48.png" alt="">
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="card card-border">
+                <img src="../imge/newitem2.webp" alt="">
+                <div class="cart-image  d-flex gap-1">
+                    <div class="card-01"><a href=""><img style="width: 30px;" src="../imge/icons8-heart-32.png"
+                                alt=""></a></div>
+                    <div class="card-01"><a href=""><img style="width: 30px;" src="../imge/overvieicon.png" alt=""></a>
+                    </div>
+                    <div class="card-01"><a href=""><img style="width: 25px;" src="../imge/icons8-shopping-bag-50.png"
+                                alt=""></a></div>
+                </div>
+                <div class="content ms-3">
+                    <div><a class="product-name" href="">Bleedin Heart</a></div>
+                    <div><span class="new-price">$45.45</span></div>
+                    <div class="d-flex">
+                        <img style="width: 25px;" src="../imge/icons8-star-filled-48.png" alt="">
+                        <img style="width: 25px;" src="../imge/icons8-star-filled-48.png" alt="">
+                        <img style="width: 25px;" src="../imge/icons8-star-filled-48.png" alt="">
+                        <img style="width: 25px;" src="../imge/icons8-star-filled-48.png" alt="">
+                        <img style="width: 25px;" src="../imge/icons8-star-filled-48.png" alt="">
+                    </div>
+                </div>
+            </div>
+
+
+
+            <div class="card card-border ">
+                <img src="../imge/cart4.webp" alt="">
+                <div class="cart-image  d-flex gap-1">
+                    <div class="card-01"><a href=""><img style="width: 30px;" src="../imge/icons8-heart-32.png"
+                                alt=""></a></div>
+                    <div class="card-01"><a href=""><img style="width: 30px;" src="../imge/overvieicon.png" alt=""></a>
+                    </div>
+                    <div class="card-01"><a href=""><img style="width: 25px;" src="../imge/icons8-shopping-bag-50.png"
+                                alt=""></a></div>
+                </div>
+                <div class="content ms-3">
+                    <div><a class="product-name" href="">Bloody Cranesbill</a></div>
+                    <div><span class="new-price">$48.45</span></div>
+                    <div class="d-flex">
+                        <img style="width: 25px;" src="../imge/icons8-star-filled-48.png" alt="">
+                        <img style="width: 25px;" src="../imge/icons8-star-filled-48.png" alt="">
+                        <img style="width: 25px;" src="../imge/icons8-star-filled-48.png" alt="">
+                        <img style="width: 25px;" src="../imge/icons8-star-filled-48.png" alt="">
+                        <img style="width: 25px;" src="../imge/icons8-star-filled-48.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- -------------------------CLINT INFO SECTION----------------------------- -->
+
+    <div class="container-fluid p-5 mt-4">
+        <div class="section-bg-img">
+            <br>
+            <div class="text-center p-5 mt-4    ">
+                <h1 class="fw-bold">
+                    WHAT SAY CLIENT
+                </h1>
+                <br>
+                <p class="">
+                    Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots <br>
+                    in a piece of classical Latin literature
+                </p>
+            </div>
+
+            <br>
+
+            <div class="container">
+                <div class="main justify-content-around ">
+
+                    <div class="card client-crad p-4">
+                        <div class="qoution-img"><img class="q-image" src="../imge/quotation.png" alt=""></div>
+                        <div class="mt-3 ms-2">
+                            <img src="../imge/userimg1.webp" alt="">
+                        </div>
+                        <div class="p-3 mt-2">
+                            <h5>PHONIX BROKER</h5>
+                            <span>Client</span>
+                        </div>
+                        <div class="mt-2 ms-3">
+                            Lorem ipsum dolor sit amet, conse <br>
+                            adipisic elit, sed do eiusmod tempo <br>
+                            incididunt ut labore et dolore. magna
+
+                        </div>
+                    </div>
+
+
+                    <div class="card client-crad p-4">
+                        <div class="qoution-img"><img class="q-image" src="../imge/quotation.png" alt=""></div>
+                        <div class="mt-3 ms-2">
+                            <img src="../imge/userimg2.webp" alt="">
+                        </div>
+                        <div class="p-3 mt-2">
+                            <h5>PHONIX BROKER</h5>
+                            <span>Client</span>
+                        </div>
+                        <div class="mt-2 ms-3">
+                            Lorem ipsum dolor sit amet, conse <br>
+                            adipisic elit, sed do eiusmod tempo <br>
+                            incididunt ut labore et dolore. magna
+
+                        </div>
+                    </div>
+
+
+
+                    <div class="card client-crad p-4">
+                        <div class="qoution-img"><img class="q-image" src="../imge/quotation.png" alt=""></div>
+                        <div class="mt-3 ms-2">
+                            <img src="../imge/userimg3.webp" alt="">
+                        </div>
+                        <div class="p-3 mt-2">
+                            <h5>PHONIX BROKER</h5>
+                            <span>Client</span>
+                        </div>
+                        <div class="mt-2 ms-3">
+                            Lorem ipsum dolor sit amet, conse <br>
+                            adipisic elit, sed do eiusmod tempo <br>
+                            incididunt ut labore et dolore. magna
+
+                        </div>
+                    </div>
+
+
+
+                    <div class="card client-crad p-4">
+                        <div class="qoution-img"><img class="q-image" src="../imge/quotation.png" alt=""></div>
+                        <div class="mt-3 ms-2">
+                            <img src="../imge/userimg1.webp" alt="">
+                        </div>
+                        <div class="p-3 mt-2">
+                            <h5>PHONIX BROKER</h5>
+                            <span>Client</span>
+                        </div>
+                        <div class="mt-2 ms-3">
+                            Lorem ipsum dolor sit amet, conse <br>
+                            adipisic elit, sed do eiusmod tempo <br>
+                            incididunt ut labore et dolore. magna
+
+                        </div>
+                    </div>
+
+
+                    <div class="card client-crad p-4">
+                        <div class="qoution-img"><img class="q-image" src="../imge/quotation.png" alt=""></div>
+                        <div class="mt-3 ms-2">
+                            <img src="../imge/userimg2.webp" alt="">
+                        </div>
+                        <div class="p-3 mt-2">
+                            <h5>PHONIX BROKER</h5>
+                            <span>Client</span>
+                        </div>
+                        <div class="mt-2 ms-3">
+                            Lorem ipsum dolor sit amet, conse <br>
+                            adipisic elit, sed do eiusmod tempo <br>
+                            incididunt ut labore et dolore. magna
+
+                        </div>
+                    </div>
+
+
+
+                    <div class="card client-crad p-4">
+                        <div class="qoution-img"><img class="q-image" src="../imge/quotation.png" alt=""></div>
+                        <div class="mt-3 ms-2">
+                            <img src="../imge/userimg3.webp" alt="">
+                        </div>
+                        <div class="p-3 mt-2">
+                            <h5>PHONIX BROKER</h5>
+                            <span>Client</span>
+                        </div>
+                        <div class="mt-2 ms-3">
+                            Lorem ipsum dolor sit amet, conse <br>
+                            adipisic elit, sed do eiusmod tempo <br>
+                            incididunt ut labore et dolore. magna
+
+                        </div>
+                    </div>
+
+
+
+                    <div class="card client-crad p-4">
+                        <div class="qoution-img"><img class="q-image" src="../imge/quotation.png" alt=""></div>
+                        <div class="mt-3 ms-2">
+                            <img src="../imge/userimg1.webp" alt="">
+                        </div>
+                        <div class="p-3 mt-2">
+                            <h5>PHONIX BROKER</h5>
+                            <span>Client</span>
+                        </div>
+                        <div class="mt-2 ms-3">
+                            Lorem ipsum dolor sit amet, conse <br>
+                            adipisic elit, sed do eiusmod tempo <br>
+                            incididunt ut labore et dolore. magna
+
+                        </div>
+                    </div>
+
+
+                    <div class="card client-crad p-4">
+                        <div class="qoution-img"><img class="q-image" src="../imge/quotation.png" alt=""></div>
+                        <div class="mt-3 ms-2">
+                            <img src="../imge/userimg2.webp" alt="">
+                        </div>
+                        <div class="p-3 mt-2">
+                            <h5>PHONIX BROKER</h5>
+                            <span>Client</span>
+                        </div>
+                        <div class="mt-2 ms-3">
+                            Lorem ipsum dolor sit amet, conse <br>
+                            adipisic elit, sed do eiusmod tempo <br>
+                            incididunt ut labore et dolore. magna
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- ------------------------icon slider ------------------------- -->
+
+
+    <div class=" container mt-5 pt-4">
+        <div class="icon-slider mt-5 ms-5">
+            <div class="background-slider-img">
+                <div class="slider-img d-flex justify-content-around">
+
+
+                    <div class="slider-icon">
+                        <img class="i-slide" src="../imge/1-1.webp" alt="">
+                    </div>
+                    <div class="slider-icon">
+                        <img class="i-slide" src="../imge/1-2.webp" alt="">
+                    </div>
+                    <div class="slider-icon">
+                        <img class="i-slide" src="../imge/1-3.webp" alt="">
+                    </div>
+                    <div class="slider-icon">
+                        <img class="i-slide" src="../imge/1-4.webp" alt="">
+                    </div>
+                    <div class="slider-icon">
+                        <img class="i-slide" src="../imge/1-5.webp" alt="">
+                    </div>
+                    <div class="slider-icon">
+                        <img class="i-slide" src="../imge/1-1.webp" alt="">
+                    </div>
+                    <div class="slider-icon">
+                        <img class="i-slide" src="../imge/1-2.webp" alt="">
+                    </div>
+                    <div class="slider-icon">
+                        <img class="i-slide" src="../imge/1-3.webp" alt="">
+                    </div>
+                    <div class="slider-icon">
+                        <img class="i-slide" src="../imge/1-4.webp" alt="">
+                    </div>
+                    <div class="slider-icon">
+                        <img class="i-slide" src="../imge/1-5.webp" alt="">
+                    </div>
+                    <div class="slider-icon">
+                        <img class="i-slide" src="../imge/1-1.webp" alt="">
+                    </div>
+                    <div class="slider-icon">
+                        <img class="i-slide" src="../imge/1-2.webp" alt="">
+                    </div>
+                    <div class="slider-icon">
+                        <img class="i-slide" src="../imge/1-3.webp" alt="">
+                    </div>
+                    <div class="slider-icon">
+                        <img class="i-slide" src="../imge/1-4.webp" alt="">
+                    </div>
+                    <div class="slider-icon">
+                        <img class="i-slide" src="../imge/1-5.webp" alt="">
+                    </div>
+                    <div class="slider-icon">
+                        <img class="i-slide" src="../imge/1-1.webp" alt="">
+                    </div>
+                    <div class="slider-icon">
+                        <img class="i-slide" src="../imge/1-2.webp" alt="">
+                    </div>
+                    <div class="slider-icon">
+                        <img class="i-slide" src="../imge/1-3.webp" alt="">
+                    </div>
+                    <div class="slider-icon">
+                        <img class="i-slide" src="../imge/1-4.webp" alt="">
+                    </div>
+                    <div class="slider-icon">
+                        <img class="i-slide" src="../imge/1-5.webp" alt="">
+                    </div>
+
+
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <br><br>
+
+    <!-- -----------------blog section------------------ -->
+
+
+    <div class="container-fluid">
+        <div class="text-center">
+            <h1 class="fw-bold">
+                LATEST BLOG
+            </h1>
+            <br>
+            <p class="">
+                Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots <br>
+                in a piece of classical Latin literature
+            </p>
+        </div>
+        <br><br>
+        <div class="container">
+            <div class="info-card img d-flex">
+                <div class="card last-card p-4 mt-2  " style="width: 93% !important;">
+
+                    <div class="containt">
+                        <h6 class="mt-2">
+                            By: Admin 24 April 2021
+                        </h6>
+
+                        <h4 class="mt-3">
+                            Maecenas Laoreet Massa
+                        </h4>
+
+                        <p class="mt-3">
+                            Lorem, ipsum dolor sit amet consectetur adipisicing elit quas quasi culpa molestias
+                            temporibus
+                            sequi iusto?
+                        </p>
+                    </div>
+                    <div class="img  mt-3">
+                        <img style="width: 300px;" src="../imge/last-cradimg.webp" alt="">
+                    </div>
+
+                </div>
+
+                <div class="card last-card p-4 mt-2  ">
+
+                    <div class="containt">
+                        <h6 class="mt-2">
+                            By: Admin 24 April 2021
+                        </h6>
+
+                        <h4 class="mt-3">
+                            Maecenas Laoreet Massa
+                        </h4>
+
+                        <p class="mt-3">
+                            Lorem, ipsum dolor sit amet consectetur adipisicing elit quas quasi culpa molestias
+                            temporibus
+                            sequi iusto?
+                        </p>
+                    </div>
+                    <div class="img  mt-3">
+                        <img style="width: 300px;" src="../imge/last-cradimg.webp" alt="">
+                    </div>
+
+                </div>
+
+
+
+                <div class="card last-card p-4 mt-2  ">
+
+                    <div class="containt">
+                        <h6 class="mt-2">
+                            By: Admin 24 April 2021
+                        </h6>
+
+                        <h4 class="mt-3">
+                            Maecenas Laoreet Massa
+                        </h4>
+
+                        <p class="mt-3">
+                            Lorem, ipsum dolor sit amet consectetur adipisicing elit quas quasi culpa molestias
+                            temporibus
+                            sequi iusto?
+                        </p>
+                    </div>
+                    <div class="img  mt-3">
+                        <img style="width: 300px;" src="../imge/last-cradimg.webp" alt="">
+                    </div>
+
+                </div>
+
+
+
+                <div class="card last-card p-4 mt-2  ">
+
+                    <div class="containt">
+                        <h6 class="mt-2">
+                            By: Admin 24 April 2021
+                        </h6>
+
+                        <h4 class="mt-3">
+                            Maecenas Laoreet Massa
+                        </h4>
+
+                        <p class="mt-3">
+                            Lorem, ipsum dolor sit amet consectetur adipisicing elit quas quasi culpa molestias
+                            temporibus
+                            sequi iusto?
+                        </p>
+                    </div>
+                    <div class="img  mt-3">
+                        <img style="width: 300px;" src="../imge/last-cradimg.webp" alt="">
+                    </div>
+
+                </div>
+                <div class="card last-card p-4 mt-2  ">
+
+                    <div class="containt">
+                        <h6 class="mt-2">
+                            By: Admin 24 April 2021
+                        </h6>
+
+                        <h4 class="mt-3">
+                            Maecenas Laoreet Massa
+                        </h4>
+
+                        <p class="mt-3">
+                            Lorem, ipsum dolor sit amet consectetur adipisicing elit quas quasi culpa molestias
+                            temporibus
+                            sequi iusto?
+                        </p>
+                    </div>
+                    <div class="img  mt-3">
+                        <img style="width: 300px;" src="../imge/last-cradimg.webp" alt="">
+                    </div>
+
+                </div>
+
+                <div class="card last-card p-4 mt-2  ">
+
+                    <div class="containt">
+                        <h6 class="mt-2">
+                            By: Admin 24 April 2021
+                        </h6>
+
+                        <h4 class="mt-3">
+                            Maecenas Laoreet Massa
+                        </h4>
+
+                        <p class="mt-3">
+                            Lorem, ipsum dolor sit amet consectetur adipisicing elit quas quasi culpa molestias
+                            temporibus
+                            sequi iusto?
+                        </p>
+                    </div>
+                    <div class="img  mt-3">
+                        <img style="width: 300px;" src="../imge/last-cradimg.webp" alt="">
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+
+        <!-- -------------------------FOOTER--------------------------- -->
+
+
+        <footer class="footer-img" style="background-color: green;">
+            <div class="container">
+                <div class="footer-content d-flex p-5 mt-5">
+                    <div>
+                        <img class="ft-logo" src="../imge/logo pronia.png" alt="">
+                        <br> <br>
+                        <p class="">
+                            Lorem ipsum dolor sit amet, consec adipisl elit, sed do eiusmod tempor
+                            incidio ut labore
+                        </p>
+                        <div>
+                            <img src="../imge/userimg1.webp" alt="">
+                            <img src="../imge/userimg1.webp" alt="">
+                            <img src="../imge/userimg1.webp" alt="">
+                            <img src="../imge/userimg1.webp" alt="">
+                        </div>
+                    </div>
+
+                    <div class="col-lg-2 col-md-4 pt-40">
+                        <div class="footer-widget-item">
+                            <h3 class="footer-widget-title">My Account</h3>
+                            <ul class="footer-widget-list-item">
+                                <li>
+                                    <a href="#" class="text-decoration-none text-dark">Sign In</a>
+                                </li>
+                                <li>
+                                    <a href="#" class="text-decoration-none text-dark">View Cart</a>
+                                </li>
+                                <li>
+                                    <a href="#" class="text-decoration-none text-dark">My Wishlist</a>
+                                </li>
+                                <li>
+                                    <a href="#" class="text-decoration-none text-dark">Track My Order</a>
+                                </li>
+                                <li>
+                                    <a href="#" class="text-decoration-none text-dark">Help</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+
+
+                    <div class="col-lg-2 col-md-4 pt-40">
+                        <div class="footer-widget-item">
+                            <h3 class="footer-widget-title">Useful Link</h3>
+                            <ul class="footer-widget-list-item">
+                                <li>
+                                    <a href="#" class="text-decoration-none text-dark">About Pronia</a>
+                                </li>
+                                <li>
+                                    <a href="#" class="text-decoration-none text-dark">How to shop</a>
+                                </li>
+                                <li>
+                                    <a href="#" class="text-decoration-none text-dark">FAQ</a>
+                                </li>
+                                <li>
+                                    <a href="#" class="text-decoration-none text-dark">Contact us</a>
+                                </li>
+                                <li>
+                                    <a href="#" class="text-decoration-none text-dark">Log in</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+
+
+
+                    <div class="col-lg-2 col-md-4 pt-40">
+                        <div class="footer-widget-item">
+                            <h3 class="footer-widget-title">Our Service</h3>
+                            <ul class="footer-widget-list-item">
+                                <li>
+                                    <a href="#" class="text-decoration-none text-dark">Payment Methods</a>
+                                </li>
+                                <li>
+                                    <a href="#" class="text-decoration-none text-dark">Money Guarantee!</a>
+                                </li>
+                                <li>
+                                    <a href="#" class="text-decoration-none text-dark">Returns</a>
+                                </li>
+                                <li>
+                                    <a href="#" class="text-decoration-none text-dark">Shipping</a>
+                                </li>
+                                <li>
+                                    <a href="#" class="text-decoration-none text-dark">Privacy Policy</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+
+
+
+
+                    <div class="col-lg-2 col-md-4 pt-40">
+                        <div class="footer-widget-item">
+                            <h3 class="footer-widget-title">Got Question? Call Us</h3>
+                            <h4><a href="">123 456 789</a></h4>
+                            <li>
+                                <a href="#" class="text-decoration-none text-dark">Your Address Goes Here</a>
+                            </li>
+
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <hr>
+
+            <div class="text-content-center justify-content-center">
+                <p class="text-center justify-content-center">
+                    © 2021 Pronia Made with by HasThemes
+                </p>
+            </div>
+
+        </footer>
+
+
+
+        <script src=" https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js "
+            integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
+            crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <script src=" https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js "
+            integrity="sha512-HGOnQO9+SP1V92SrtZfjqxxtLmVzqZpjFFekvzZVWoiASSQgSr4cw9Kqd2+l8Llp4Gm0G8GIFJ4ddwZilcdb8A=="
+            crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <script src=" https://cdnjs.cloudflare.com/ajax/libs/jquery-migrate/3.5.2/jquery-migrate.min.js "
+            integrity="sha512-BzvgYEoHXuphX+g7B/laemJGYFdrq4fTKEo+B3PurSxstMZtwu28FHkPKXu6dSBCzbUWqz/rMv755nUwhjQypw=="
+            crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+        <script type="text/javascript">
+            $(document).ready(function () {
+                $('.main').slick({
+                    slidesToShow: 3,
+                    slidesToScroll: 3
+                });
+                $('.js-add-slide').on('click', function () {
+                    slideIndex++;
+                    $('.add-remove').slick('slickAdd', '<div><h3>' + slideIndex + '</h3></div>');
+                });
+
+                $('.js-remove-slide').on('click', function () {
+                    $('.add-remove').slick('slickRemove', slideIndex - 1);
+                    if (slideIndex !== 0) {
+                        slideIndex--;
+                    }
+                });
+            });
+
+            $('.slider-img').slick({
+                centerMode: true,
+                centerPadding: '80px',
+                slidesToShow: 5,
+                responsive: [
+                    {
+                        breakpoint: 768,
+                        settings: {
+                            arrows: false,
+                            centerMode: true,
+                            centerPadding: '60px',
+                            slidesToShow: 5
+                        }
+                    },
+                    {
+                        breakpoint: 480,
+                        settings: {
+                            arrows: false,
+                            centerMode: true,
+                            centerPadding: '60px',
+                            slidesToShow: 1
+                        }
+                    }
+                ]
+            });
+
+
+
+
+            $(document).ready(function () {
+                $('.info-card').slick({
+                    slidesToShow: 3,
+                    slidesToScroll: 3
+                });
+                $('.js-add-slide').on('click', function () {
+                    slideIndex++;
+                    $('.add-remove').slick('slickAdd', '<div><h3>' + slideIndex + '</h3></div>');
+                });
+
+                $('.js-remove-slide').on('click', function () {
+                    $('.add-remove').slick('slickRemove', slideIndex - 1);
+                    if (slideIndex !== 0) {
+                        slideIndex--;
+                    }
+                });
+            });
+
+            $('.slider-img').slick({
+                centerMode: true,
+                centerPadding: '80px',
+                slidesToShow: 5,
+                responsive: [
+                    {
+                        breakpoint: 768,
+                        settings: {
+                            arrows: false,
+                            centerMode: true,
+                            centerPadding: '60px',
+                            slidesToShow: 5
+                        }
+                    },
+                    {
+                        breakpoint: 480,
+                        settings: {
+                            arrows: false,
+                            centerMode: true,
+                            centerPadding: '60px',
+                            slidesToShow: 1
+                        }
+                    }
+                ]
+            });
+
+
+        </script>
+
+
+</body>
+
+</html>
